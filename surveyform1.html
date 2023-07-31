@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>freeCodeCamp Survey form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+<fieldset>
+  <label for="name">Name<input id="name" name="name" type="text" required placeholder="Enter your Name" /></label>
+  <label for="email">Email<input id="email" name="email" type="email" required placeholder="Enter your Email" /></label>
+  <label for="number">Age(optional)<input id="number" name="number" type="number" min="10" max="99" placeholder="Age" /></label>
+</fieldset>
+<fieldset>
+  <label for="dropdown">Which option describes your current role?
+    <select id="dropdown" name="dropdown"> 
+      <option value="">(Select current role)</option>
+      <option value="1">Student</option>
+      <option value="2">Full Time Job</option>
+      <option value="3">Full Time Learner</option>
+      <option value="4">Prefer not to say</option>
+      <option value="5">Other</option>
+    </select>
+  </label>
+  <label>Would you recommend freeCodeCamp to a friend?
+    <label><input id="definitely" type="radio" name="recommend" class="inline" />Definitely</label>
+  <label for="maybe"><input id="maybe" type="radio" name="recommend" class="inline" />  Maybe</label>
+  <label for="not-sure"><input id="not-sure" type="radio" name="recommend" class="inline" />Not sure</label>
+</fieldset>
+<fieldset>
+</fieldset>
+</form>
+  </body>
+</html>
